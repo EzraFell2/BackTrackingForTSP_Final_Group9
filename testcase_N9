@@ -1,0 +1,62 @@
+
+###M1: 4 thanh pho 
+citis_name = ["Hà Nội", "HCM", "Hải Phòng", "Đà Nẵng"]
+num_locations = len(citis_name)
+x_coordinates = [0, 6, 3, 3]
+y_coordinates = [0, 0, 6, 3]
+locations = [
+     [0, 4, 3, 2],
+     [4, 0, 1, 2],
+     [3, 1, 0, 5],
+     [2, 2, 5, 0]
+]
+###M2: 7 thành phố
+citis_name = ["Đắk Lắk", "Hà Tĩnh", "Huế", "Trà Vinh", "Phú Yên", "Lâm Đồng", "Gia Lai"]
+num_locations = len(citis_name)
+x_coordinates = [4, 6, 6, 2, 2, 5.5, 3]
+y_coordinates = [3, 2, 1, 2.5, 1, 2.75, 2.75]
+locations = [
+    [0, 2.24, 2.83, 2.06, 2.83,1.52,1.03],
+    [2.24, 0, 1, 4.03, 4.12,0.9,3.09],
+    [2.83, 1, 0, 4.27, 4, 1.82, 3.47],
+    [2.06, 4.03, 4.27, 0, 1.5, 3.51, 1.03],
+    [2.83, 4.12, 4, 1.5, 0, 3.91, 2.02],
+    [1.52, 0.9, 1.82, 3.51, 3.91, 0, 2.5],
+    [1.03, 3.09, 3.47, 1.03, 2.02, 2.5, 0]  
+]
+####M3: 9 thành phố
+citis_name = ["Đắk Lắk", "Hà Tĩnh", "Huế", "Trà Vinh", "Phú Yên", "Lâm Đồng", "Gia Lai", "TP.HCM", "Ha Noi"]
+num_locations = len(citis_name)
+x_coordinates = [4, 6, 6, 2, 2, 5.5, 3, 1, 7]
+y_coordinates = [3, 2, 1, 2.5, 1, 2.75, 2.75, 1.5, 2.25]
+
+locations = [[0.0, 2.24, 2.83, 2.06, 2.83, 1.52, 1.03, 3.35, 3.09], 
+              [2.24, 0.0, 1.0, 4.03, 4.12, 0.9, 3.09, 5.02, 1.03], 
+              [2.83, 1.0, 0.0, 4.27, 4.0, 1.82, 3.47, 5.02, 1.6], 
+              [2.06, 4.03, 4.27, 0.0, 1.5, 3.51, 1.03, 1.41, 5.01], 
+              [2.83, 4.12, 4.0, 1.5, 0.0, 3.91, 2.02, 1.12, 5.15], 
+              [1.52, 0.9, 1.82, 3.51, 3.91, 0.0, 2.5, 4.67, 1.58], 
+              [1.03, 3.09, 3.47, 1.03, 2.02, 2.5, 0.0, 2.36, 4.03], 
+              [3.35, 5.02, 5.02, 1.41, 1.12, 4.67, 2.36, 0.0, 6.05], 
+              [3.09, 1.03, 1.6, 5.01, 5.15, 1.58, 4.03, 6.05, 0.0]]
+####### M4: 4 thành phố khong co chu trinh hamlinton
+citis_name = ["Hà Nội", "HCM", "Hải Phòng", "Đà Nẵng"]
+num_locations = len(citis_name)
+x_coordinates = [0, 6, 3, 3]
+y_coordinates = [0, 0, 6, 3]
+locations = [
+                   [0, 1, 0, 0],
+                   [1, 0, 5, 2],
+                   [0, 5, 0, 3],
+                   [0, 2, 3, 0]
+              ]
+###### M5: 4 thành phố nhưng có thành phố không có đường đi (chu trinh hamlinton)
+citis_name = ["Hà Nội", "HCM", "Hải Phòng", "Đà Nẵng"]
+num_locations = len(citis_name)
+x_coordinates = [0, 6, 3, 3]
+y_coordinates = [0, 0, 6, 3]
+
+locations= [[ 0, 10, 15, 20 ],
+            [ 10, 0, 7, 25 ],
+            [ 15, 7, 0, 0],
+            [ 20, 25, 0, 0 ]]
